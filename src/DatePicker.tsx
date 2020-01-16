@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import moment, { Moment } from 'moment';
-import x from '../icons/x.svg';
-import MonthsPicker from './MonthsPicker';
-import HelperText from './HelperText';
+import x from './icons/x.svg';
+import MonthsPicker from './components/MonthsPicker';
+import HelperText from './components/HelperText';
 import styled from 'styled-components';
-import DayPicker from './DayPicker';
+import DayPicker from './components/DayPicker';
 
 interface DatePickerProps {
     upcomingMonthsLength: number;
