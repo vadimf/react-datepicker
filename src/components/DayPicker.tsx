@@ -54,7 +54,6 @@ const WeekdaysContainer = styled.div`
 `;
 
 const Weekday = styled.span`
-    font-family: 'Almoni', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #787c80;
@@ -84,7 +83,7 @@ const Day = styled.span<DayProps>`
     justify-content: center;
     color: #539cad;
     font-size: 12px;
-    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+    font-family: 'Comic Sans MS';
     margin: 2px;
 
     &:hover {

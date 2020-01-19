@@ -78,12 +78,11 @@ const MonthsPicker: React.FC<MonthsPickerProps> = ({
 
 const StyledSelect = styled(Select)`
     direction: rtl;
-    font-size: 12px;
     color: #787c80;
     width: 150px;
     height: 30px;
-    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 16px;
     margin: 0 10px;
     padding: 0 5px;
 

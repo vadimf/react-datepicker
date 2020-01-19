@@ -32,7 +32,7 @@ const ColorDot = styled.div<{ color: string }>`
 `;
 
 const Text = styled.span`
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     color: #787c80;
 `;
