@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'Almoni';
-  src: local('Almoni'), url(./fonts/almoni-400.ttf) format('ttf');
+    font-family: 'Almoni';
+    src: local('Almoni'), url(./fonts/almoni-400.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Almoni-Bold';
-  src: local('Almoni-Bold'), url(./fonts/almoni-700.ttf) format('ttf');
+    font-family: 'Almoni-Bold';
+    font-weight: 700;
+    src: local('Almoni-Bold'), url(./fonts/almoni-700.ttf) format('truetype');
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Almoni';
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Almoni', 'Comic Sans MS', monospace;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
-
