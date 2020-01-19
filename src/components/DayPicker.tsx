@@ -26,7 +26,7 @@ const DayPicker: React.FC<DayPickerProps> = ({
                 {days.map((day, index) => {
                     const selected = !!selectedDay && day.isSame(selectedDay);
                     const disabled = day.isBefore(moment());
-                    
+
                     return (
                         <Day
                             key={index}
@@ -54,6 +54,7 @@ const WeekdaysContainer = styled.div`
 `;
 
 const Weekday = styled.span`
+    font-family: 'Almoni-Bold';
     font-weight: 700;
     font-size: 12px;
     color: #787c80;
@@ -81,10 +82,9 @@ const Day = styled.span<DayProps>`
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
     color: #539cad;
     font-size: 12px;
-    font-family: 'Comic Sans MS';
+    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
     margin: 2px;
 
     &:hover {

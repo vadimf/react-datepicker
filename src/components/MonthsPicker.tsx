@@ -46,9 +46,9 @@ const MonthsPicker: React.FC<MonthsPickerProps> = ({
             <MonthsContainer>
                 <ArrowIcon
                     src={left}
-                    disabled={selectedOption === upcomingMonthsLength}
+                    disabled={selectedOption + 1 === upcomingMonthsLength}
                     onClick={() =>
-                        selectedOption < upcomingMonthsLength &&
+                        selectedOption + 1 < upcomingMonthsLength &&
                         setSelectedOption(selectedOption + 1)
                     }
                 />
@@ -78,12 +78,11 @@ const MonthsPicker: React.FC<MonthsPickerProps> = ({
 
 const StyledSelect = styled(Select)`
     direction: rtl;
-    font-weight: 700;
     font-size: 12px;
     color: #787c80;
     width: 150px;
     height: 30px;
-    font-family: 'Comic Sans MS';
+    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
     margin: 0 10px;
     padding: 0 5px;
 
@@ -112,7 +111,7 @@ const StyledSelect = styled(Select)`
 
     .react-select__option {
         background-color: #fafafa;
-        cursor:pointer;
+        cursor: pointer;
 
         &:hover {
             color: #25867d;
