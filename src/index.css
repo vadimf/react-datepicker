@@ -1,16 +1,17 @@
 @font-face {
     font-family: 'Almoni';
-    src: local('Almoni'), url(./fonts/almoni-400.ttf) format('truetype');
-    src: local('Almoni'), url(./fonts/almoni-400.woff) format('woff');
-    src: local('Almoni'), url(./fonts/almoni-400.eot);
+    font-weight: 400;
+    src: local('Almoni'), url(./fonts/almoni-400.ttf) format('truetype'),
+        local('Almoni'), url(./fonts/almoni-400.woff) format('woff'),
+        local('Almoni'), url(./fonts/almoni-400.eot);
 }
 
 @font-face {
     font-family: 'Almoni-Bold';
     font-weight: 700;
-    src: local('Almoni-Bold'), url(./fonts/almoni-700.ttf) format('truetype');
-    src: local('Almoni-Bold'), url(./fonts/almoni-700.woff) format('woff');
-    src: local('Almoni-Bold'), url(./fonts/almoni-700.eot);
+    src: local('Almoni-Bold'), url(./fonts/almoni-700.ttf) format('truetype'),
+        local('Almoni-Bold'), url(./fonts/almoni-700.woff) format('woff'),
+        local('Almoni-Bold'), url(./fonts/almoni-700.eot);
 }
 
 body {

@@ -78,7 +78,7 @@ const CloseButton = styled.img`
 `;
 
 const Header = styled.p`
-    font-family: 'Almoni-Bold';
+    font-family: 'Almoni', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #636365;

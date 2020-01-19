@@ -54,7 +54,7 @@ const WeekdaysContainer = styled.div`
 `;
 
 const Weekday = styled.span`
-    font-family: 'Almoni-Bold';
+    font-family: 'Almoni', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #787c80;

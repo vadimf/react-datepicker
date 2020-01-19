@@ -83,6 +83,7 @@ const StyledSelect = styled(Select)`
     width: 150px;
     height: 30px;
     font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+    font-weight: 700;
     margin: 0 10px;
     padding: 0 5px;
 
