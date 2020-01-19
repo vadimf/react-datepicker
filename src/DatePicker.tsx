@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import moment, { Moment } from 'moment';
 import x from './icons/x.svg';
 import MonthsPicker from './components/MonthsPicker';
