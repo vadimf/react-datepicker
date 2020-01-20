@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import styled from 'styled-components';
 import moment, { Moment } from 'moment';
-import left from '../icons/chevron-left.svg';
-import right from '../icons/chevron-right.svg';
+import left from '../../icons/chevron-left.svg';
+import right from '../../icons/chevron-right.svg';
 import Select, { ValueType } from 'react-select';
 
 interface MonthsPickerProps {
@@ -12,7 +12,7 @@ interface MonthsPickerProps {
 
 type OptionType = { label: string; value: number };
 
-const MonthsPicker: React.FC<MonthsPickerProps> = ({
+const MonthPicker: React.FC<MonthsPickerProps> = ({
     onMonthChange,
     upcomingMonthsLength
 }) => {
@@ -160,4 +160,4 @@ const MonthsContainer = styled.div`
     margin-bottom: 20px;
 `;
 
-export default MonthsPicker;
+export default MonthPicker;

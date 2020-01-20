@@ -64,7 +64,7 @@ const DaysContainer = styled.div`
     flex-wrap: wrap;
     flex-direction: row-reverse;
     width: 100%;
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 25px 0;
 `;
 
 interface DayProps {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import moment, { Moment } from 'moment';
-import x from './icons/x.svg';
-import MonthsPicker from './components/MonthsPicker';
+import x from '../icons/x.svg';
+import MonthPicker from './components/MonthPicker';
 import HelperText from './components/HelperText';
 import styled from 'styled-components';
 import DayPicker from './components/DayPicker';
@@ -26,6 +26,8 @@ const DatePicker: React.FC<DatePickerProps> = ({ upcomingMonthsLength }) => {
         }
     }, [month]);
 
+    
+    // Print selected day as JS date object on select
     useEffect(() => {
         if (selectedDay) {
             console.log(selectedDay.toDate());
@@ -36,7 +38,7 @@ const DatePicker: React.FC<DatePickerProps> = ({ upcomingMonthsLength }) => {
         <Container>
             <CloseButton src={x} />
             <Header>תאריך יציאה</Header>
-            <MonthsPicker onMonthChange={setMonth} upcomingMonthsLength={upcomingMonthsLength} />
+            <MonthPicker onMonthChange={setMonth} upcomingMonthsLength={upcomingMonthsLength} />
             <DayPicker
                 days={days}
                 onDaySelected={setSelectedDay}
